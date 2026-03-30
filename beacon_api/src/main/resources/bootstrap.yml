@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: beacon-api
+  profiles:
+     active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.19:8848
+      config:
+        server-addr: 192.168.1.19:8848
+        file-extension: yml
+
