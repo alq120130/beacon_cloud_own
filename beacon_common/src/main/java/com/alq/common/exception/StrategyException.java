@@ -1,6 +1,7 @@
 package com.alq.common.exception;
 
-import com.mashibing.common.enums.ExceptionEnums;
+
+import com.alq.common.enums.ExceptionEnums;
 import lombok.Getter;
 
 /**

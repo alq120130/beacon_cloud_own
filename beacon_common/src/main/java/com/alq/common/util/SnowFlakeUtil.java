@@ -1,6 +1,5 @@
 package com.alq.common.util;
 
-
 import com.alq.common.enums.ExceptionEnums;
 import com.alq.common.exception.ApiException;
 import org.springframework.beans.factory.annotation.Value;
@@ -16,7 +15,7 @@ import javax.annotation.PostConstruct;
  * 第三位：占5个bit位，代表机器id
  * 第四位：占5个bit位，服务id
  * 第五位：占12个bit位，序列，自增的数值
- * @author zjw
+ * @author alq
  * @description
  */
 @Component

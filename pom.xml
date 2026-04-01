@@ -13,6 +13,11 @@
         <module>beacon_common</module>
         <module>beacon_cache</module>
         <module>beacon_test</module>
+        <module>beacon_strategy</module>
+        <module>beacon_search</module>
+        <module>beacon_push</module>
+        <module>beacon_smsgateway</module>
+        <module>beacon_monitor</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
