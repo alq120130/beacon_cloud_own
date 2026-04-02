@@ -15,7 +15,7 @@ import java.io.IOException;
 
 /**
  * 监听接口模块推送过来的消息
- * @author alq
+ * @author
  * @description
  */
 @Component

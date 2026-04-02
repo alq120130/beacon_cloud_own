@@ -17,7 +17,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @author alq
+ * @author 
  * @description  校验客户的apikey是否合法
  */
 @Service(value = "sign")

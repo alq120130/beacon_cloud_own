@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * 响应前端数据的基本结构
- * @author alq
+ * @author 
  * @description
  */
 @Data
@@ -23,7 +23,7 @@ public class ResultVO {
     @JsonInclude(value = JsonInclude.Include.NON_EMPTY)
     private Long total;
 
-    @JsonInclude(value = JsonInclude.Include.NON_EMPTY)
+    @JsonInclude(value = JsonInclude.Include.NON_NULL)
     private Object rows;
 
 

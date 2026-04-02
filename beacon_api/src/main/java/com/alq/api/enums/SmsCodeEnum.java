@@ -3,7 +3,7 @@ package com.alq.api.enums;
 import lombok.Getter;
 
 /**
- * @Auther: alq
+ * @Auther: 
  * @Date: 2026/3/30 - 03 - 30 - 12:37
  * @Description: com.alq.api.enums
  * @version: 1.0

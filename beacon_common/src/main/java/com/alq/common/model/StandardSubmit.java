@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * 在接口模块-策略模块-短信网关模块需要做校验和封装的POJO类对象
  *
- * @author alq
+ * @author 
  * @description
  */
 @Data

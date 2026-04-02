@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author alq
+ * @author
  * @description
  */
 public class CMPP2DeliverUtil {

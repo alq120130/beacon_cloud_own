@@ -1,7 +1,7 @@
 package com.alq.test.entity;
 
 /**
- * @author alq
+ * @author 
  * @description
  */
 public class MobileBlack {

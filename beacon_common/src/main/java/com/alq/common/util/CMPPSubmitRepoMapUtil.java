@@ -6,7 +6,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 用于CMPP发送短信时，临时存储的位置
- * @author alq
+ * @author
  * @description
  */
 public class CMPPSubmitRepoMapUtil {

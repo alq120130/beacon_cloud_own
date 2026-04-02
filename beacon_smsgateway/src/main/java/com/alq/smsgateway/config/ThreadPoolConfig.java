@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * @author alq
+ * @author 
  * @description
  */
 @Configuration

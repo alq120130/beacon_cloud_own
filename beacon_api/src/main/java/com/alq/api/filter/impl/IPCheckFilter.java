@@ -15,7 +15,7 @@ import org.springframework.util.CollectionUtils;
 import java.util.List;
 
 /**
- * @author alq
+ * @author
  * @description  校验客户的apikey是否合法
  */
 @Service(value = "ip")

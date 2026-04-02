@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * 通道转换留的口子
- * @author alq
+ * @author 
  * @description
  */
 public class ChannelTransferUtil {

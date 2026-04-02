@@ -5,7 +5,7 @@ import com.alq.common.vo.ResultVO;
 
 /**
  * 封装ResultVO的工具
- * @author alq
+ * @author 
  * @description
  */
 public class R {

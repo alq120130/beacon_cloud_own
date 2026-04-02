@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * 敏感词校验
  *
- * @author alq
+ * @author 
  * @description
  */
 @Service(value = "hutoolDFADirtyWord")

@@ -29,7 +29,7 @@ public class RabbitMQConfig {
     }
 
     @Bean
-    public Queue normalQueue(){
+    public Queue normueue(){
         Queue queue = QueueBuilder.durable(SMS_GATEWAY_NORMAL_QUEUE)
                 .withArgument("x-message-ttl",TTL)
                 .withArgument("x-dead-letter-exchange",SMS_GATEWAY_DEAD_EXCHANGE)
@@ -39,8 +39,8 @@ public class RabbitMQConfig {
     }
 
     @Bean
-    public Binding normalBinding(Exchange normalExchange,Queue normalQueue){
-        return BindingBuilder.bind(normalQueue).to(normalExchange).with("").noargs();
+    public Binding normalBinding(Exchange normalExchange,Queue normueue){
+        return BindingBuilder.bind(normueue).to(normalExchange).with("").noargs();
     }
 
     @Bean

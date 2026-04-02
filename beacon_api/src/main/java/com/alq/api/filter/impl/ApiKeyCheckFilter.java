@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 import java.util.Map;
 
 /**
- * @author alq
+ * @author 
  * @description  校验客户的apikey是否合法
  */
 @Service(value = "apikey")

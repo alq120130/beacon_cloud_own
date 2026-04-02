@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * @Auther: alq
+ * @Auther:
  * @Date: 2026/3/29 - 03 - 29 - 21:26
  * @Description: com.alq.api
  * @version: 1.0

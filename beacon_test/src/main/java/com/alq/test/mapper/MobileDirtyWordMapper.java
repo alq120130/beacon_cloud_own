@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Select;
 import java.util.List;
 
 /**
- * @author alq
+ * @author
  * @description
  */
 public interface MobileDirtyWordMapper {

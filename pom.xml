@@ -18,6 +18,7 @@
         <module>beacon_push</module>
         <module>beacon_smsgateway</module>
         <module>beacon_monitor</module>
+        <module>beacon_webmaster</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

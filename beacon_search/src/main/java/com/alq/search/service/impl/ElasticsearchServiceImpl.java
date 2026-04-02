@@ -27,11 +27,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 import java.io.IOException;
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 @Service
 @Slf4j
 public class ElasticsearchServiceImpl implements SearchService {
+    private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+
     /**
      * 添加成功的result
      */
@@ -199,8 +205,7 @@ public class ElasticsearchServiceImpl implements SearchService {
         List<Map> rows = new ArrayList<>();
         for (SearchHit hit : resp.getHits().getHits()) {
             Map<String, Object> row = hit.getSourceAsMap();
-            List sendTime = (List) row.get("sendTime");
-            String sendTimeStr = listToDateString(sendTime);
+            String sendTimeStr = formatSendTime(row.get("sendTime"));
             row.put("sendTimeStr",sendTimeStr);
             row.put("corpname",row.get("sign"));
             // 高亮结果的处理
@@ -218,6 +223,27 @@ public class ElasticsearchServiceImpl implements SearchService {
         return result;
     }
 
+    private String formatSendTime(Object sendTimeObj) {
+        if (sendTimeObj == null) {
+            return "-";
+        }
+        if (sendTimeObj instanceof List) {
+            List sendTime = (List) sendTimeObj;
+            if (sendTime.size() >= 6) {
+                return listToDateString(sendTime);
+            }
+            return "-";
+        }
+        if (sendTimeObj instanceof Number) {
+            LocalDateTime sendTime = LocalDateTime.ofInstant(
+                    Instant.ofEpochMilli(((Number) sendTimeObj).longValue()),
+                    ZoneId.systemDefault()
+            );
+            return DATE_TIME_FORMATTER.format(sendTime);
+        }
+        return sendTimeObj.toString();
+    }
+
     private String listToDateString(List sendTime) {
         String year = sendTime.get(0) + "";
         Integer monthInt = (Integer) sendTime.get(1);
@@ -231,7 +257,7 @@ public class ElasticsearchServiceImpl implements SearchService {
         String hour = hourInt / 10 == 0 ? "0" + hourInt : hourInt + "";
         String minute = minuteInt / 10 == 0 ? "0" + minuteInt : minuteInt + "";
         String second = secondInt / 10 == 0 ? "0" + secondInt : secondInt + "";
-        return year + "-" + month + "-" + day + " " + hour + ":" + month + ":" + second;
+        return year + "-" + month + "-" + day + " " + hour + ":" + minute + ":" + second;
     }
 
 

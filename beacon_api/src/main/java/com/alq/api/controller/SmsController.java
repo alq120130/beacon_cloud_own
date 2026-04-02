@@ -22,9 +22,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
+import java.time.LocalDateTime;
 
 /**
- * @Auther: alq
+ * @Auther:
  * @Date: 2026/3/30 - 03 - 30 - 12:20
  * @Description: com.alq.api.controller
  * @version: 1.0
@@ -74,6 +75,7 @@ public class SmsController {
         submit.setText(singleSendForm.getText());
         submit.setState(singleSendForm.getState());
         submit.setUid(singleSendForm.getUid());
+        submit.setSendTime(LocalDateTime.now());
 
         checkFilterContext.check(submit);
 

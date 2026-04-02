@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.Map;
 
 /**
- * @author alq
+ * @author
  * @description
  */
 @FeignClient(value = "beacon-cache")

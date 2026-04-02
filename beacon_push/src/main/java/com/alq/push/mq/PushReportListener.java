@@ -23,7 +23,7 @@ import org.springframework.web.client.RestTemplate;
 import java.io.IOException;
 
 /**
- * @author alq
+ * @author
  * @description
  */
 @Component

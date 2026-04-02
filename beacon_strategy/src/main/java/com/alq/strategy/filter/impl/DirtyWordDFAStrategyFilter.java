@@ -11,7 +11,7 @@ import java.util.Set;
 /**
  * 敏感词校验
  *
- * @author alq
+ * @author
  * @description
  */
 @Service(value = "dfaDirtyWord")

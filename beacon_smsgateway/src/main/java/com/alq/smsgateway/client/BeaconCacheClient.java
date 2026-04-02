@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 /**
- * @author alq
+ * @author 
  * @description
  */
 @FeignClient(value = "beacon-cache")

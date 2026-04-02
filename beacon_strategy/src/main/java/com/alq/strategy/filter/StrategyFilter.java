@@ -3,7 +3,7 @@ package com.alq.strategy.filter;
 import com.alq.common.model.StandardSubmit;
 
 /**
- * @author alq
+ * @author 
  * @description
  */
 public interface StrategyFilter {

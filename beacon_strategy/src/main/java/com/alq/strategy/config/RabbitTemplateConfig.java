@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * 设置RabbitTemplate的confirm&return机制
- * @author alq
+ * @author
  * @description
  */
 @Configuration

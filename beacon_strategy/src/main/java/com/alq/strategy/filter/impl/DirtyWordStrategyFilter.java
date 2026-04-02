@@ -19,7 +19,7 @@ import java.util.UUID;
 /**
  * 敏感词校验
  *
- * @author alq
+ * @author
  * @description
  */
 @Service(value = "dirtyword")

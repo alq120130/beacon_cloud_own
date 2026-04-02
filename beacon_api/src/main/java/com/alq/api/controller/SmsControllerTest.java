@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * @Auther: alq
+ * @Auther:
  * @Date: 2026/3/30 - 03 - 30 - 12:11
  * @Description: com.alq.api.controller
  * @version: 1.0

@@ -18,7 +18,7 @@ import java.util.Set;
 
 /**
  * 监控队列中的消息个数，如果队列消息超过10000条，直接发送短信，通知。
- * @author alq
+ * @author
  * @version V1.0.0
  */
 @Component
