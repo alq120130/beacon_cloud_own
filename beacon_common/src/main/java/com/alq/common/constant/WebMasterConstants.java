@@ -1,7 +1,7 @@
 package com.alq.common.constant;
 
 /**
- * @author zjw
+ * @author alq
  * @description
  */
 public interface WebMasterConstants {

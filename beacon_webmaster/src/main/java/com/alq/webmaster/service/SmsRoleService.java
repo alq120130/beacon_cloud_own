@@ -3,7 +3,7 @@ package com.alq.webmaster.service;
 import java.util.Set;
 
 /**
- * @author zjw
+ * @author alq
  * @description
  */
 public interface SmsRoleService {

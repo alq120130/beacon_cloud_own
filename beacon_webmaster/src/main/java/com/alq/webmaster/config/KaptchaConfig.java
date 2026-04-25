@@ -10,7 +10,7 @@ import java.util.Properties;
 
 /**
  * 验证码生成规则
- * @author zjw
+ * @author alq
  * @description
  */
 @Configuration

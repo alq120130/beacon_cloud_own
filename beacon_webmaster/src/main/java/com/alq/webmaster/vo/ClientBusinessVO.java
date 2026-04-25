@@ -3,7 +3,7 @@ package com.alq.webmaster.vo;
 import lombok.Data;
 
 /**
- * @author zjw
+ * @author alq
  * @description
  */
 @Data

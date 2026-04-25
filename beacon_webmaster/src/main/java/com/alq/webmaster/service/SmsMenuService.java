@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * 菜单Service
- * @author zjw
+ * @author alq
  * @description
  */
 public interface SmsMenuService {

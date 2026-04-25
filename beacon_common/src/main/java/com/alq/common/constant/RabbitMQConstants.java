@@ -2,7 +2,7 @@ package com.alq.common.constant;
 
 /**
  * RabbitMQ中的一些队列信息
- * @author zjw
+ * @author alq
  * @description
  */
 public interface RabbitMQConstants {

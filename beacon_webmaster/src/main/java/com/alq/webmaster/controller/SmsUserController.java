@@ -25,7 +25,7 @@ import java.util.Map;
 /**
  * 认证，注册等基于用户的操作接口
  *
- * @author zjw
+ * @author alq
  * @description
  */
 @RestController

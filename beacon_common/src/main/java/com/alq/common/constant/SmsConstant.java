@@ -2,7 +2,7 @@ package com.alq.common.constant;
 
 /**
  * 通用的一些常量
- * @author zjw
+ * @author alq
  * @description
  */
 public interface SmsConstant {

@@ -3,7 +3,7 @@ package com.alq.common.enums;
 import lombok.Getter;
 
 /**
- * @author zjw
+ * @author alq
  * @description
  */
 @Getter

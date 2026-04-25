@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * 构建队列&交换机信息
- * @author zjw
+ * @author alq
  * @description
  */
 @Configuration

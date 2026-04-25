@@ -2,7 +2,7 @@ package com.alq.common.constant;
 
 /**
  * 缓存模块中的各种前缀
- * @author zjw
+ * @author alq
  * @description
  */
 public interface CacheConstant {

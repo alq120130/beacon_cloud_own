@@ -13,7 +13,7 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 
 /**
- * @author zjw
+ * @author alq
  * @description
  */
 public class DeliverRunnable implements Runnable {

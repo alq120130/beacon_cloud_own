@@ -6,7 +6,7 @@ import com.alq.webmaster.entity.ClientBusiness;
 import java.util.List;
 
 /**
- * @author zjw
+ * @author alq
  * @description
  */
 public interface ClientBusinessService {

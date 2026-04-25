@@ -13,7 +13,7 @@ import static com.alq.common.constant.RabbitMQConstants.*;
 
 /**
  * 针对性的配置，可以采用当前方式~
- * @author zjw
+ * @author alq
  * @description
  */
 @Configuration

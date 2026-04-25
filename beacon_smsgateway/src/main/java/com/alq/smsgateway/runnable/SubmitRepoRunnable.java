@@ -15,7 +15,7 @@ import org.springframework.beans.BeanUtils;
 
 /**
  * 封装任务
- * @author zjw
+ * @author alq
  * @description
  */
 public class SubmitRepoRunnable implements Runnable {

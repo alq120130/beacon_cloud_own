@@ -6,7 +6,7 @@ import lombok.Getter;
 
 /**
  * 搜索模块的异常对象
- * @author zjw
+ * @author alq
  * @description
  */
 @Getter
